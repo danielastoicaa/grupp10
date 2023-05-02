@@ -1,0 +1,79 @@
+[
+    {
+        "question": "Vad händer om medeltempteraturen ökar 2 grader?",
+        "allAnswers": [
+            "2 grader är inte så mycket", 
+            "Katastrofalt! Havsnivån kommer höjas 20 cm",
+            "I Sverige kommer vi få samma sol och värme som i Thailand. Vi skulle inte behöva semestra till varmare klimat",
+            "Korallreven riskerar att försvinna helt, och världens befolkning kan uppleva extrema värmeböljor"
+        ],
+        "letters": ["a", "b", "c", "d"],
+        "correctAnswer": "Korallreven riskerar att försvinna helt, och världens befolkning kan uppleva extrema värmeböljor"
+    },
+    {
+        "question":"Vilka tre dimensioner berör Agenda 2030?",
+        "allAnswers": [
+            "Miljö, social och ekonomi",
+            "Social, koldioxid och ekomoni",
+            "Agenda 2030 har bara EN dimension: miljö",
+            "Miljö, koldioxid, social"
+        ],
+        "letters": ["a", "b", "c", "d"],
+        "correctAnswer": "Miljö, social och ekonomi"
+    },
+    {
+        "question":"Hur många delmål har Agenda 2030?",
+        "allAnswers": [
+            "1 globalt mål: att förbättra klimatförändringen.",
+            "3 globala mål",
+            "193 globala mål, och drygt 230 globala indikatorer för hur arbetet ska genomföras och följas upp",
+            "4 globala mål"
+        ],
+        "letters": ["a", "b", "c", "d"],
+        "correctAnswer": "193 globala mål, och drygt 230 globala indikatorer för hur arbetet ska genomföras och följas upp"
+    },
+    {
+        "question":"Hur många procent av jordens yta täcks av glaciärer?",
+        "allAnswers": [
+            "10%",
+            "13%",
+            "91%",
+            "3%"
+        ],
+        "letters": ["a", "b", "c", "d"],
+        "correctAnswer": "10%"
+    },
+    {
+        "question":"Hur hade jordens temperatur varit utan växthuseffekten?",
+        "allAnswers": [
+            "Mer soligt - som tropiskt väder",
+            "Det blir istid",
+            "Som klimatet variera och det är helt naturligt. På vintern - kallt, och på sommaren - varmare",
+            "Kallare"
+         ],
+         "letters": ["a", "b", "c", "d"],
+         "correctAnswer": "Kallare"
+    },
+    {
+        "question":"Hur mycket har havsnivån stigit redan på grund av klimatförändringarna?",
+        "allAnswers": [
+            "20 cm",
+            "46 cm",
+            "0 mm",
+            "3,6 mm"
+        ],
+        "letters": ["a", "b", "c", "d"],
+        "correctAnswer": "20 cm"
+    },
+    {
+        "question":"Vilken organism är det som är betydande i korallrevsblekning?",
+        "allAnswers": [
+            "Korallreven",
+            "Koralldjur",
+            "Zooxanthellae",
+            "Kalciumkarbonat"
+        ],
+        "letters": ["a", "b", "c", "d"],
+        "correctAnswer": "Zooxanthellae"
+    }
+]

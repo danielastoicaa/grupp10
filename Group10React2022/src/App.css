@@ -1,0 +1,574 @@
+:root {
+  --bs-body-color: #fff !important;
+  --bs-font-sans-serif: 'IBM Plex Sans Condensed' !important;
+}
+
+/* START */
+.homePage .quizBtn:hover {
+  border: 2px solid #fff;
+  box-shadow: 0px 0px 8px 0px #fff;
+}
+
+.homePage .co2Btn:hover {
+  border: 2px solid #6EFFE4;
+  box-shadow: 0px 0px 8px 0px #6effe4b9;
+}
+
+.homePage .tempBtn:hover {
+  border: 2px solid #da5555;
+  box-shadow: 0px 0px 8px 0px #da5555b9;
+}
+
+.homePage .glacierBtn:hover {
+  border: 2px solid #d6aaf1;
+  box-shadow: 0px 0px 8px 0px #d6aaf1b9;
+}
+
+.homePage .seaBtn:hover {
+  border: 2px solid #76aee6;
+  box-shadow: 0px 0px 8px 0px #76aee6b9;
+}
+
+.homePage .startImg a:hover .col-co2,
+.homePage .startImg a:hover .col-temp,
+.homePage .startImg a:hover .col-glacier,
+.homePage .startImg a:hover .col-sea,
+.homePage .startImg a:hover .col-quiz {
+  display: block !important;
+  color: #fff;
+}
+
+/* end of START */
+
+/* MAINMENU */
+.nav-tabs .nav-link {
+  color: #fff !important;
+  font-size: 1.2rem !important;
+  width: 200px !important;
+  border-radius: 0 !important;
+  border-color: #fff !important;
+  border-right: none !important;
+  transform: skewX(-35deg);
+  padding-top: 0.2rem !important;
+  padding-bottom: 0.2rem !important;
+  text-transform: uppercase;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #fff !important;
+  background-color: #2F2F2F !important;
+  border-color: #fff !important;
+  border-bottom: solid 1px #2F2F2F !important;
+}
+
+.nav-tabs .nav-link div {
+  transform: skewX(35deg)
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  background-color: #2F2F2F !important;
+}
+/* end of MAINMENU */
+
+/* DIAGRAMS */
+ul.amcharts-amexport-menu a {
+  text-decoration: none;
+}
+/* end of DIAGRAMS */
+
+/* ASIDE */
+.nav-link:hover .allBtn,
+.nav-link.active .allBtn {
+  border: 2px solid #fff;
+  box-shadow: 0px 0px 8px 0px #fff;
+}
+
+.nav-link:hover .co2Btn,
+.nav-link.active .co2Btn {
+  border: 2px solid #6EFFE4;
+  box-shadow: 0px 0px 8px 0px #6effe4b9;
+}
+
+.nav-link:hover .tempBtn,
+.nav-link.active .tempBtn {
+  border: 2px solid #da5555;
+  box-shadow: 0px 0px 8px 0px #da5555b9;
+}
+
+.nav-link:hover .glacierBtn,
+.nav-link.active .glacierBtn {
+  border: 2px solid #d6aaf1;
+  box-shadow: 0px 0px 8px 0px #d6aaf1b9;
+}
+
+.nav-link:hover .seaBtn,
+.nav-link.active .seaBtn {
+  border: 2px solid #76aee6;
+  box-shadow: 0px 0px 8px 0px #76aee6b9;
+}
+
+.nav-link:hover .col-all,
+.nav-link.active .col-all,
+.nav-link:hover .col-co2,
+.nav-link.active .col-co2,
+.nav-link:hover .col-temp,
+.nav-link.active .col-temp,
+.nav-link:hover .col-glacier,
+.nav-link.active .col-glacier,
+.nav-link:hover .col-sea,
+.nav-link.active .col-sea {
+  display: block !important;
+  color: #fff;
+}
+/* end of ASIDE */
+
+/* QUIZ */
+.btn-group {
+  width: 100% !important;
+}
+
+.btn-check:active+.btn-outline-primary,
+.btn-check:checked+.btn-outline-primary,
+.btn-outline-primary.active,
+.btn-outline-primary.dropdown-toggle.show,
+.btn-outline-primary:active,
+.btn-outline-primary:hover {
+  border: 1px solid #fff !important;
+  background-color: #262626 !important;
+}
+
+.btn-outline-primary {
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
+div .correctQuizBtn {
+  background-color: #0d6efd !important;
+  border-color: #0a58ca !important;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+div .correctQuizBtn:hover {
+  background-color: #0a58ca !important;
+  border-color: #0a58ca !important;
+}
+
+/* end of QUIZ */
+
+/* FACTS */
+.facts a, .facts a:visited {
+  color: #0d6efd !important;
+}
+/* end of FACTS */
+
+/* SPEECH BUBBLE on homepage (https://codingislove.com/css-speech-bubbles/) */
+.box {
+  width: 600px;
+  margin: 50px auto;
+  border: 1px solid #fff;
+  padding: 20px 30px;
+  color: #fff;
+  background-color: #2F2F2F;
+  position: relative;
+  z-index: 1;
+}
+
+.sb:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid #fff;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #fff;
+  border-bottom: 10px solid transparent;
+  right: -20px;
+  top: 6px;
+}
+
+.sb:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid #2F2F2F;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #2F2F2F;
+  border-bottom: 10px solid transparent;
+  right: -17px;
+  top: 7px;
+}
+/* end of SPEECH BUBBLE */
+
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* SHARE */
+.faDownload,
+.faShareAlt,
+.faLink {
+  font-size: 1.2rem;
+}
+
+.faLink:hover,
+.faDownload:hover, 
+.faShareAlt:hover {
+  box-shadow: 0px 0px 8px 0px white;
+}
+
+/* FOOTER */
+/*Icons från fontawesome har egna className, dessa ser man i inspektera i chrome, */
+.faEnvelope:hover,
+.faComment:hover {
+  color: #fff;
+}
+
+.faComment {
+  margin: 0 10px 20px;
+}
+
+.social-Icon {
+  margin: 0 10px;
+}
+
+a .faFacebook:hover {
+  color: rgb(68, 96, 255);
+  margin: 0 10px;
+}
+
+.faInstagram:hover {
+  color: rgb(255, 0, 119);
+  margin: 0 10px;
+}
+
+.faTwitter:hover {
+  color: rgb(0, 195, 255);
+  margin: 0 10px;
+}
+
+/* Länkar i allmänhet */
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: #fff !important;
+  margin: 0 10px;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 1610px) {
+  #piechartdiv {
+    height: 400px !important;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  #speechbubble {
+    bottom: 0%;
+  }
+  .box {
+    width: 500px;
+    margin: 50px auto;
+    border: 1px solid #fff;
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  #piechartdiv {
+    height: 500px !important;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .box {
+    width: 400px;
+    margin: 50px auto;
+    border: 1px solid #fff;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  #startImg {
+    display: none;
+  }
+  .startImg {
+    width: 100% !important;
+    height: 600px;
+    padding-top: 0 !important;
+  }
+  #speechbubble {
+    position: static !important;
+  }
+  .box {
+    width: 600px;
+    margin: 0;
+    border: none;
+  }
+  .sb:before, .sb:after {
+    display: none;
+  }
+  #co2-link {
+    left: 25% !important;
+  }
+  #temp-link {
+    left: 35% !important;
+  }
+  #glacier-link {
+    left: 25% !important;
+  }
+  #sea-link {
+    left: 60% !important;
+    top: 55%;
+  }
+  #quiz-link {
+      left: 60% !important;
+      bottom: 65% !important;
+  }
+  #co2-link .col-co2 {
+    display: block !important;
+    width: 480px !important;
+  }
+  #temp-link .col-temp {
+    display: block !important;
+    width: 480px !important;
+  }
+  #glacier-link .col-glacier {
+    display: block !important;
+    width: 480px !important;
+  }
+  #sea-link .col-sea {
+    display: block !important;
+    text-align: left !important;
+    width: 350px !important;
+    left: 125% !important;
+    bottom: 50% !important;
+    margin-bottom: -12px;
+  }
+  #quiz-link .col-quiz {
+    display: block !important;
+    left: 125% !important;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .header img {
+    width: 35px;
+  }
+  .header p {
+    font-size: 3rem !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .header {
+    border-bottom: 1px solid #fff;
+  }
+  .header a:hover {
+    color: #fff;
+  }
+  .navbar-light .navbar-toggler {
+    border: none;
+  }
+  .btn-close {
+    width: 1.5em !important;
+    height: 1.5em !important;
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1.5em auto no-repeat !important;
+  }
+  .effects h1 {
+    font-size: 1.8rem !important;
+  }
+
+}
+
+@media only screen and (max-width: 776px) {
+  #piechartdiv {
+    height: 400px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .homePage .innerDiv {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .homePage .co2Btn,
+  .homePage .tempBtn,
+  .homePage .glacierBtn,
+  .homePage .seaBtn,
+  .homePage .quizBtn {
+    width: 120px !important;
+    height: 120px !important;
+  }
+  #co2-link .col-co2,
+  #temp-link .col-temp,
+  #glacier-link .col-glacier {
+    width: 430px !important;
+  }
+  #sea-link .col-sea {
+    left: 130% !important;
+  }
+  #quiz-link .col-quiz {
+    left: 130% !important;
+  }
+  .homePage .co2Btn img {
+    width: 50px !important;
+  }
+  .homePage .tempBtn img,
+  .homePage .glacierBtn img,
+  .homePage .seaBtn img {
+    width: 40px !important;
+  }
+  .homePage .quizBtn p {
+    font-size: 2.9rem !important;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #piechartdiv {
+    height: 300px !important;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #speechbubble {
+    position: static;
+  }
+  .box {
+    width: 100%;
+    position: static;
+  }
+  .homePage .innerDiv {
+    width: 90px !important;
+    height: 90px !important;
+  }
+  .homePage .co2Btn,
+  .homePage .tempBtn,
+  .homePage .glacierBtn,
+  .homePage .seaBtn,
+  .homePage .quizBtn {
+    width: 110px !important;
+    height: 110px !important;
+  }
+  .homePage .co2Btn img {
+    width: 40px !important;
+  }
+  .homePage .tempBtn img,
+  .homePage .glacierBtn img,
+  .homePage .seaBtn img {
+    width: 30px !important;
+  }
+  .homePage .quizBtn p {
+    font-size: 2.5rem !important;
+  }
+  #co2-link {
+    left: 30% !important;
+  }
+  #temp-link {
+    bottom: 45% !important;
+  }
+  #glacier-link {
+    left: 30% !important;
+    bottom: 15% !important;
+  }
+  #sea-link {
+    left: 55% !important;
+    top: 55%;
+  }
+  #quiz-link {
+      left: 55% !important;
+      bottom: 60% !important;
+  }
+  #co2-link .col-co2,
+  #temp-link .col-temp,
+  #glacier-link .col-glacier {
+    width: 390px !important;
+  }
+}
+
+@media only screen and (max-width: 605px) {
+  #piechartdiv {
+    height: 200px !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #co2-link {
+    left: 40% !important;
+    bottom: 80% !important;
+  }
+  #temp-link {
+    left: 30% !important;
+    bottom: 50% !important;
+  }
+  #glacier-link {
+    left: 35% !important;
+    bottom: 15% !important;
+  }
+  #sea-link {
+    left: 60% !important;
+    top: 50%;
+  }
+  #quiz-link {
+      left: 65% !important;
+      bottom: 65% !important;
+  }
+  #co2-link .col-co2,
+  #temp-link .col-temp,
+  #glacier-link .col-glacier {
+    width: 390px !important;
+  }
+  .effects h1 {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #sea-link {
+    left: 52% !important;
+    top: 48%;
+  }
+  #quiz-link {
+      left: 58% !important;
+      bottom: 62% !important;
+  }
+}
+
+@media only screen and (max-width: 465px) {
+  #piechartdiv {
+    height: 120px !important;
+  }
+}
+
